@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Processing Center - Your Trusted Partner</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts (Optional, for better Bengali typography) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">ভিসা<span class="text-gray-800">সেন্টার</span></a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">হোম</a>
+                <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">সার্ভিস</a>
+                <a href="#process" class="text-gray-600 hover:text-blue-600 font-medium">প্রসেস</a>
+                <a href="#faq" class="text-gray-600 hover:text-blue-600 font-medium">জিজ্ঞাসা</a>
+                <a href="#contact"
+                    class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition duration-300">যোগাযোগ</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <a href="#home" class="block py-3 px-6 text-gray-600 hover:bg-gray-100">হোম</a>
+            <a href="#services" class="block py-3 px-6 text-gray-600 hover:bg-gray-100">সার্ভিস</a>
+            <a href="#process" class="block py-3 px-6 text-gray-600 hover:bg-gray-100">প্রসেস</a>
+            <a href="#faq" class="block py-3 px-6 text-gray-600 hover:bg-gray-100">জিজ্ঞাসা</a>
+            <a href="#contact" class="block py-3 px-6 text-gray-600 hover:bg-gray-100">যোগাযোগ</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <!-- Hero Section with Video Background -->
+        <section id="home" class="relative h-[60vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
+            <!-- Video Element -->
+            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover -z-10">
+                <source src="img/video.mp4" type="video/mp4">
+                আপনার ব্রাউজার ভিডিও ট্যাগ সাপোর্ট করে না।
+            </video>
+
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+            <!-- Content -->
+            <div
+                class="relative z-10 container mx-auto px-6 flex flex-col justify-center items-center text-center text-white">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">আপনার বিশ্ব ভ্রমণের স্বপ্ন পূরণ করুন</h1>
+                <p class="text-lg md:text-2xl mb-8 max-w-3xl">আমরা ট্যুরিস্ট, স্টুডেন্ট, এবং ওয়ার্ক ভিসার জন্য
+                    নির্ভরযোগ্য ও দ্রুত সেবা প্রদান করি।</p>
+                <a href="#contact"
+                    class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300 text-lg">এখনই
+                    আবেদন করুন</a>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">আমাদের সার্ভিসসমূহ</h2>
+                    <p class="text-gray-600 mt-2">আমরা বিভিন্ন ধরণের ভিসা প্রসেসিং সেবা প্রদান করি।</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Service Card 1 -->
+                    <div
+                        class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div
+                            class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ট্যুরিস্ট ভিসা</h3>
+                        <p class="text-gray-600">বিশ্বের বিভিন্ন দেশে ভ্রমণের জন্য দ্রুত ও সহজ ভিসা প্রসেসিং।</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div
+                        class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div
+                            class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                <path
+                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                </path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">স্টুডেন্ট ভিসা</h3>
+                        <p class="text-gray-600">বিদেশে উচ্চশিক্ষার জন্য সঠিক পরামর্শ ও ভিসা সহায়তা।</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div
+                        class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div
+                            class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ওয়ার্ক ভিসা</h3>
+                        <p class="text-gray-600">বিদেশে ক্যারিয়ার গড়ার জন্য ওয়ার্ক পারমিট ও ভিসা প্রসেসিং।</p>
+                    </div>
+                    <!-- Service Card 4 -->
+                    <div
+                        class="bg-gray-50 p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition duration-300">
+                        <div
+                            class="bg-red-100 text-red-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0
+                            015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ফ্যামিলি ভিসা</h3>
+                        <p class="text-gray-600">আপনার প্রিয়জনদের সাথে থাকার জন্য নির্ভরশীল ভিসা সেবা।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">সহজ ৩টি ধাপে ভিসা আবেদন</h2>
+                    <p class="text-gray-600 mt-2">আমাদের আবেদন প্রক্রিয়া খুবই সহজ এবং স্বচ্ছ।</p>
+                </div>
+                <div
+                    class="flex flex-col md:flex-row justify-between items-center text-center space-y-8 md:space-y-0 md:space-x-8">
+                    <!-- Step 1 -->
+                    <div class="w-full md:w-1/3">
+                        <div
+                            class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto text-3xl font-bold mb-4">
+                            ১</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ফর্ম পূরণ করুন</h3>
+                        <p class="text-gray-600">আমাদের ওয়েবসাইট থেকে আবেদন ফর্ম ডাউনলোড করে পূরণ করুন।</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="w-full md:w-1/3">
+                        <div
+                            class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto text-3xl font-bold mb-4">
+                            ২</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ডকুমেন্ট জমা দিন</h3>
+                        <p class="text-gray-600">প্রয়োজনীয় কাগজপত্র আমাদের অফিসে জমা দিন বা ইমেইল করুন।</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="w-full md:w-1/3">
+                        <div
+                            class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto text-3xl font-bold mb-4">
+                            ৩</div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">ভিসা গ্রহণ করুন</h3>
+                        <p class="text-gray-600">আপনার ভিসা প্রস্তুত হলে আমরা আপনাকে জানিয়ে দেব।</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">সাধারণ জিজ্ঞাসাসমূহ</h2>
+                    <p class="text-gray-600 mt-2">আপনার মনে থাকা প্রশ্নগুলোর উত্তর এখানে পেতে পারেন।</p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item border rounded-lg overflow-hidden">
+                        <button
+                            class="faq-question w-full text-left p-4 bg-gray-100 hover:bg-gray-200 focus:outline-none flex justify-between items-center">
+                            <span class="font-semibold text-lg text-gray-800">ভিসা পেতে কতদিন সময় লাগে?</span>
+                            <span class="faq-icon text-blue-600">
+                                <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer hidden p-4 bg-white text-gray-700">
+                            <p>ভিসা প্রসেসিং-এর সময় দেশ এবং ভিসার ধরণের উপর নির্ভর করে। সাধারণত, ট্যুরিস্ট ভিসার জন্য
+                                ৭-১৫ কার্যদিবস এবং অন্যান্য ভিসার জন্য আরও বেশি সময় লাগতে পারে।</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item border rounded-lg overflow-hidden">
+                        <button
+                            class="faq-question w-full text-left p-4 bg-gray-100 hover:bg-gray-200 focus:outline-none flex justify-between items-center">
+                            <span class="font-semibold text-lg text-gray-800">কি কি ডকুমেন্ট প্রয়োজন?</span>
+                            <span class="faq-icon text-blue-600">
+                                <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer hidden p-4 bg-white text-gray-700">
+                            <p>সাধারণত পাসপোর্ট, ছবি, ব্যাংক স্টেটমেন্ট, চাকরির প্রমাণপত্র এবং আবেদন ফর্ম প্রয়োজন হয়।
+                                তবে দেশ ও ভিসার ধরণ অনুযায়ী ডকুমেন্টের তালিকা ভিন্ন হতে পারে। বিস্তারিত জানতে আমাদের
+                                সাথে যোগাযোগ করুন।</p>
+                        </div>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item border rounded-lg overflow-hidden">
+                        <button
+                            class="faq-question w-full text-left p-4 bg-gray-100 hover:bg-gray-200 focus:outline-none flex justify-between items-center">
+                            <span class="font-semibold text-lg text-gray-800">আপনাদের সার্ভিস চার্জ কত?</span>
+                            <span class="faq-icon text-blue-600">
+                                <svg class="w-6 h-6 transform transition-transform" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                                </svg>
+                            </span>
+                        </button>
+                        <div class="faq-answer hidden p-4 bg-white text-gray-700">
+                            <p>আমাদের সার্ভিস চার্জ ভিসার ধরণ ও দেশের উপর নির্ভরশীল। নির্দিষ্ট তথ্যের জন্য অনুগ্রহ করে
+                                আমাদের অফিসে যোগাযোগ করুন অথবা ইমেইল করুন।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">ভিসাসেন্টার</h3>
+                    <p class="text-gray-400">আপনার বিশ্বস্ত ভিসা প্রসেসিং পার্টনার। আমরা আপনার স্বপ্ন পূরণে সহায়তা করতে
+                        প্রতিশ্রুতিবদ্ধ।</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">যোগাযোগ</h3>
+                    <p class="text-gray-400">বাড়ি #১২, রোড #৩, ব্লক #ডি, ধানমন্ডি, ঢাকা-১২০৫</p>
+                    <p class="text-gray-400 mt-2">ইমেইল: info@visacenter.com</p>
+                    <p class="text-gray-400 mt-2">ফোন: +880 1234 567890</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">আমাদের অনুসরণ করুন</h3>
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M22.675 0h-21.35C.59 0 0 .59 0 1.325v21.35C0 23.41.59 24 1.325 24H12.82v-9.29h-3.128V11.16h3.128V8.63c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.54h-3.12V24h6.116c.735 0 1.325-.59 1.325-1.325V1.325C24 .59 23.41 0 22.675 0z">
+                                </path>
+                            </svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.626c-3.272 0-3.667.014-4.947.072-2.39.11-3.417.854-4.093 2.188s-.93 2.64-.93 4.094c-.058 1.28-.072 1.675-.072 4.947s.014 3.667.072 4.947c.276 1.454.854 2.427 2.188 3.103s2.64.93 4.094.93c1.28.058 1.675.072 4.947.072s3.667-.014 4.947-.072c1.454-.276 2.427-.854 3.103-2.188s.93-2.64.93-4.094c.058-1.28.072-1.675.072-4.947s-.014-3.667-.072-4.947c-.276-1.454-.854-2.427-2.188-3.103s-2.64-.93-4.094-.93C15.667 3.79 15.272 3.79 12 3.79zm0 5.838a6.402 6.402 0 100 12.804 6.402 6.402 0 000-12.804zm0 1.626a4.776 4.776 0 110 9.552 4.776 4.776 0 010-9.552z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+                <p>© ২০২৪ ভিসা প্রসেসিং সেন্টার। সর্বস্বত্ব সংরক্ষিত।</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script src="script.js"></script>
+</body>
+
+</html>
